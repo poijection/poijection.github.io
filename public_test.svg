@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html>
-<body>
-<b>Html Injection</b>
-<marquee>html injection can show false page with image,fake_login_form,fake_mesage,reputation_loss,phishing etc </marquee>
-
-<svg width="100" height="100">
-  <circle cx="50" cy="50" r="40"
-  stroke="green" stroke-width="4" fill="yellow" />
-Sorry, your browser does not support inline SVG.
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <b>Title</b>
+      </div>
+    </body>
+  </foreignObject>
 </svg>
- 
-</body>
-</html>
-
