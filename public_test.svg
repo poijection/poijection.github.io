@@ -1,9 +1,28 @@
-<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <body xmlns="http://www.w3.org/1999/xhtml">
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <b>Title</b>
-      </div>
-    </body>
-  </foreignObject>
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .italic {
+      font-style: italic;
+    }
+    .link {
+      fill: blue;
+      text-decoration: underline;
+    }
+  </style>
+
+  <text x="10" y="40" class="title">Title</text>
+  <text x="10" y="80">This is a <tspan class="bold">bold</tspan> paragraph.</text>
+  <text x="10" y="120">This is an <tspan class="italic">italic</tspan> paragraph.</text>
+  <text x="10" y="160">
+    This is a paragraph with a 
+    <a href="https://example.com">
+      <tspan class="link">link</tspan>
+    </a>.
+  </text>
 </svg>
