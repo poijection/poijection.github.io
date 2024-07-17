@@ -1,0 +1,12 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <h1>Title</h1>
+        <p>This is a <b>bold</b> paragraph.</p>
+        <p>This is an <i>italic</i> paragraph.</p>
+        <p>This is a paragraph with a <a href="https://example.com">link</a>.</p>
+      </div>
+    </body>
+  </foreignObject>
+</svg>
