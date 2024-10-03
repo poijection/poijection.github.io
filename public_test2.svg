@@ -1,7 +1,4 @@
-<code>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<svg
-onload="window.location='http://www.example.com'"
-xmlns="http://www.w3.org/2000/svg">
+<svg width="200" height="200"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <image xlink:href="http://me6.com/aem/xss2.svg" height="200" width="200"/>
 </svg>
-</code>
