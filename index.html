@@ -1573,7 +1573,7 @@
 
             document.querySelectorAll('.nav-link, .cta-button').forEach(link => {
                 link.addEventListener('click', function (e) {
-                    e.preventDefault();
+                    // e.preventDefault();
                     const targetId = this.getAttribute('href').substring(1);
                     scrollToSection(targetId);
                 });
