@@ -1,3 +1,4 @@
+http://first.com
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,7 +21,7 @@
 </body>
 </html>
 
-
+new WebSocket("https://example.com");
 new WebSocket("wss://example.com/socket");
 new EventSource("/stream");
 
